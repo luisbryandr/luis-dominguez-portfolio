@@ -1,4 +1,5 @@
-import React from "react"
+import React from "react";
+import './contact.css';
 
 
 export default function Contact() {
@@ -10,16 +11,16 @@ export default function Contact() {
 
     return (
         <div id='Contact'>
-            <div>{user.resume && <a href={user.resume} download>Resume</a> }
+            <div className='resume_wrapper'>{user.resume && <a href={user.resume} download>Resume</a> }
             </div>
-            <div className='footer-links'>
+            <div className='footer_links'>
                 <a href='/'>Home</a>
                 <a href='#Projects'>Projects</a>
                 <a href='#About'>About</a>
             </div>
-            <div>
-                <a href={user.linkedIn}>LinkedIn</a>
-                <a href={user.gitHub}>GitHub</a>
+            <div className='footer_icon_wrapper'>
+                <a href={user.linkedIn}><i className="lni lni-linkedin-original"></i></a>
+                <a href={user.gitHub}><i className="lni lni-github-original"></i></a>
             </div>
         </div>
     )

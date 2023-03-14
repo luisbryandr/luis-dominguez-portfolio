@@ -16,7 +16,7 @@ export default function Main () {
                     <a href="#About">About</a>
                     <a href="#Contact">Contact</a>
                 </div>
-                <div className="main-text">
+                <div className="main_text">
                     <h1>{user.name}</h1>
                     <h2>{user.subtitle}</h2>
                 </div>

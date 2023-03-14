@@ -1,4 +1,4 @@
-#Main{
+#Main {
     height: 100vh;
     width: 100%;
 }
@@ -13,6 +13,14 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+}
+
+.main_links {
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10% auto 0;
 }
 
 .main_links a {
