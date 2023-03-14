@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Project from "./Project";
+import './projects.css'
 
 export default function Projects() {
     const [ displayProjects, setDisplayProjects ] = useState(true)
@@ -58,7 +59,7 @@ export default function Projects() {
 
     return (
         <div id='Projects'>
-            <h3 className="section_title">| PROJECTS |</h3>
+            <h3 className='section_title'>| PROJECTS |</h3>
             {displayProjects && <div className='projects_wrapper'>
                 {userProjects.map((proj, index) => {
                     return <Project proj={proj} setDisplayProjects={setDisplayProjects} key ={index}/>

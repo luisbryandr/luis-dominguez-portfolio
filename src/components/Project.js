@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './project.css'
 
 export default function Project(props) {
     const [ isActive, setIsActive ] = useState(false)

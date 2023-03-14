@@ -1,4 +1,5 @@
 import React from "react";
+import './main.css';
 
 export default function Main () {
     const user = {
@@ -8,8 +9,8 @@ export default function Main () {
 
     return (
         <div id='Main'>
-            <div className="main-background-img" >
-                <div className="main-links">
+            <div className="main_background_img" >
+                <div className="main_links">
                     <a href="/">Home</a>
                     <a href="#Projects">Projects</a>
                     <a href="#About">About</a>
