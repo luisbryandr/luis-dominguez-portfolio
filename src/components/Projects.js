@@ -53,7 +53,7 @@ export default function Projects() {
             ],
             gitHub: 'https://github.com/luisbryandr/favorite-sports-teams', // add a link to repo here (leave blank to not display icon)
             deployed_site: 'https://favorite-sports-teams.pages.dev/', //if you have a deployed site then feel free to add it (leave blank to not display icon)
-            background_image: "https://www.sportsunfold.com/wp-content/uploads/2021/10/image-6-2.jpg.webp",
+            background_image: "https://img2.cgtrader.com/items/2023706/025baf0f38/50-football-teams-3d-logo-collection-pack-3d-model.jpg",
         },
     ]
 
